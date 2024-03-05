@@ -9,3 +9,9 @@ class DoneTodoState extends TodoStates {
 
   DoneTodoState({required this.todos});
 }
+
+class ErrorTodoState extends TodoStates {
+  final String message;
+
+  ErrorTodoState({required this.message});
+}
